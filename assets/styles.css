@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
+
+@media screen and (min-width: 150px) {
+  * {
+    margin: 0;
+  }
+  .bright-pink {
+    color: #f24968;
+  }
+  .orange {
+    color: #f38e35;
+  }
+  section.home {
+    background: url(./WAVES-FIRST-ORANGE.png) top -60px left -30px no-repeat,
+      url(./WAVES-FIRST-ORANGE.png) bottom -40px left -30px no-repeat;
+    background-size: 760px 200px;
+    background-color: #f2ece6;
+  }
+
+  section.home h1 {
+    padding: 181px 20px 41px;
+    font-family: 'Pattaya', sans-serif;
+    color: #d9736a;
+    font-size: 73px;
+    text-align: center;
+  }
+
+  section.home a {
+    text-decoration: none;
+  }
+  .links-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.home a {
+    color: #fef6f3;
+    width: 250px;
+    font-size: 14px;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.08rem;
+    padding: 13px 0px;
+  }
+
+  a.new-client {
+    background-color: #d9736a;
+    margin-bottom: 32px;;
+  }
+  a.book {
+    background-color: #f4c369;
+    width: 299px;
+    margin-bottom: 200px;
+  }
+}
