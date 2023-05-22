@@ -46,11 +46,51 @@
 
   a.new-client {
     background-color: #d9736a;
-    margin-bottom: 32px;;
+    margin-bottom: 32px;
   }
   a.book {
     background-color: #f4c369;
     width: 299px;
     margin-bottom: 200px;
+  }
+  section.about {
+    background: url(./WAVES-FIRST-ORANGE.png) top -165px left -30px no-repeat;
+    background-size: 760px 200px;
+    background-color: #f2ece6;
+    text-align: center;
+    padding-bottom: 44.7px;
+  }
+
+  section.about h2 {
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: #a65151;
+    opacity: 0.55;
+    padding-top: 53px;
+  }
+
+  section.about img {
+    min-width: 119px;
+    max-width: 40%;
+    min-height: 121px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+    top: 20px
+  }
+
+  section.about div {
+    margin: 0px 55.9px 0px 54.9px;
+    background-color: #cc786e;
+    padding: 33px 29.2px 42.6px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+
   }
 }
