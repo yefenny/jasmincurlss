@@ -48,11 +48,21 @@
     background-color: #d9736a;
     margin-bottom: 32px;
   }
+
+  a.new-client:hover{
+    background-color: #b05e57;
+  }
+
   a.book {
     background-color: #f4c369;
     width: 299px;
     margin-bottom: 200px;
   }
+
+  a.book:hover {
+    background-color: #dfab4b;
+  }
+
   section.about {
     background: url(./WAVES-FIRST-ORANGE.png) top -165px left -30px no-repeat;
     background-size: 760px 200px;
@@ -79,7 +89,7 @@
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #fff;
-    top: 20px
+    top: 20px;
   }
 
   section.about div {
@@ -91,6 +101,59 @@
     font-weight: 400;
     font-size: 15px;
     text-align: justify;
+  }
+  section.shop {
+    background-color: #d9736a;
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 142px;
+  }
+  section.shop h2 {
+    font-family: 'Pattaya', sans-serif;
+    color: #f2ae2e;
+    font-size: 46px;
+  }
 
+  section.shop .innersense {
+    display: inline-block;
+    background-image: url(./InnersenseAds2-04.jpg);
+    border-radius: 12px;
+    min-width: 233px;
+    min-height: 163px;
+    background-repeat: no-repeat;
+    background-size: 233px;
+    background-position: 20% 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  section.shop p {
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    color: #fff;
+    padding: 0 46px 25px;
+    line-height: 27px;
+    letter-spacing: 0.05rem;
+    margin-bottom: 36px;
+  }
+  section.shop a.shopnow {
+    color: #fef6f3;
+    width: 250px;
+    font-size: 14px;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.08rem;
+    text-decoration: none;
+    background-color: #F4CEA0;
+    padding: 14px 69px;
+    margin-bottom: 200px;
+  }
+  section.shop a.shopnow:hover {
+   background-color: #f4c369;
   }
 }
