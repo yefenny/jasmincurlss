@@ -307,5 +307,25 @@
     font-family: 'Vollkorn SC', serif;
     font-weight: 400;
     color: #fff;
+    padding-bottom: 16px;
   }
+
+  section.contact .address {
+    font-weight: 700;
+  }
+
+  section.contact .follow {
+    font-family: 'Ultra', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;;
+    padding-bottom: 11px;
+  }
+
+  section.contact img {
+    width: 33px;
+    height: 33px;
+    padding-bottom: 55px;
+  }
+
 }
