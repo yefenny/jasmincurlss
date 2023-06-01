@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Ultra&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
 
 @media screen and (min-width: 150px) {
   * {
@@ -49,7 +49,7 @@
     margin-bottom: 32px;
   }
 
-  a.new-client:hover{
+  a.new-client:hover {
     background-color: #b05e57;
   }
 
@@ -149,11 +149,95 @@
     text-align: center;
     letter-spacing: 0.08rem;
     text-decoration: none;
-    background-color: #F4CEA0;
+    background-color: #f4cea0;
     padding: 14px 69px;
     margin-bottom: 200px;
   }
   section.shop a.shopnow:hover {
-   background-color: #f4c369;
+    background-color: #f4c369;
   }
+  section.bridal {
+    background: url(./frame-orange.png) no-repeat;
+    background-position: bottom right;
+    background-color: #f4cea0;
+    text-align: center;
+  }
+
+  section.bridal h2 {
+    font-family: 'Ultra', serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fcf9f9;
+    padding-top: 28px;
+  }
+
+  section.bridal .yellow-square {
+    display: inline-block;
+    background-image: url(./rectangule.png);
+    min-width: 40px;
+    min-height: 37px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -115px;
+    left: -10px;
+    z-index: 3;
+  }
+  section.bridal .photo-1 {
+    display: inline-block;
+    background-image: url(./IMG_1784.jpg);
+    width: 136px;
+    height: 211px;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: -20px;
+    position: relative;
+    left:-35px;
+    top: 65px;
+    z-index: 1;
+  }
+  section.bridal .photo-2 {
+    display: inline-block;
+    background-image: url(./IMG_1783.jpg);
+    position: relative;
+    width: 128px;
+    height: 136px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -0px -5px;
+    top: 16px;
+    left: -29px;
+    z-index: 3;
+
+  }
+  section.bridal .orange {
+    display: inline-block;
+    background-image: url(./orange-circle.png);
+    position: relative;
+    width: 89.84px;
+    height: 88.23px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 250px;
+    bottom: 215px;
+    z-index: 2;
+  }
+  section.bridal p {
+    display: inline-block;
+    background-color: #F2ECE6;
+    position: relative;
+    color: #592B02;
+    text-align: justify;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    font-size: 15px;
+    z-index: 2;
+    width: 217px;
+    padding: 38px 8px 22px 8px;
+    top: 20px;
+    left: -45px;
+    z-index: 0;
+    margin-bottom: 204px;
+  }
+  
 }
