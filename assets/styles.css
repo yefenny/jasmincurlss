@@ -1,4 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Sree+Krushnadevaraya&family=Ultra&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
+
+@media screen and (max-width: 374px ){
+  section.bridal {
+    background: url(./frame-orange.png) no-repeat;
+    background-position: bottom right;
+    background-color: #f4cea0;
+    text-align: center;
+  }
+
+  section.bridal h2 {
+    font-family: 'Ultra', serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fcf9f9;
+    padding-top: 28px;
+  }
+
+  section.bridal .yellow-square {
+    display: inline-block;
+    background-image: url(./rectangule.png);
+    min-width: 40px;
+    min-height: 37px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -115px;
+    left: -10px;
+    z-index: 3;
+  }
+  section.bridal .photo-1 {
+    display: inline-block;
+    background-image: url(./IMG_1784.jpg);
+    max-width: 136px;
+    max-height: 211px;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: -20px;
+    position: relative;
+    left: -35px;
+    top: 65px;
+    z-index: 1;
+  }
+  section.bridal .photo-2 {
+    display: inline-block;
+    background-image: url(./IMG_1783.jpg);
+    position: relative;
+    max-width: 118px;
+    max-height: 126px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -0px -5px;
+    top: 16px;
+    left: -29px;
+    z-index: 3;
+  }
+  section.bridal .orange {
+    display: inline-block;
+    background-image: url(./orange-circle.png);
+    position: relative;
+    width: 69.84px;
+    height: 68.23px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 250px;
+    bottom: 205px;
+    z-index: 2;
+  }
+  section.bridal p {
+    display: inline-block;
+    background-color: #f2ece6;
+    position: relative;
+    color: #592b02;
+    text-align: justify;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    font-size: 15px;
+    z-index: 2;
+    width: 217px;
+    padding: 38px 8px 22px 8px;
+    top: 20px;
+    left: -45px;
+    z-index: 0;
+    margin-bottom: 204px;
+  }
+  
+}
 @media screen and (min-width: 150px) {
   * {
     margin: 0;
@@ -160,6 +246,9 @@
     background-position: bottom right;
     background-color: #f4cea0;
     text-align: center;
+  }
+  section .bridal-container {
+    margin: auto;
   }
 
   section.bridal h2 {
@@ -328,4 +417,272 @@
     padding-bottom: 55px;
   }
 
+}
+
+/* Very small screen */
+
+@media screen and (max-width: 374px ){
+ 
+  section.home h1 {
+
+    font-size: 53px;
+    text-align: center;
+  }
+
+
+  section.home a {
+    width: 210px;
+    font-size: 12px;
+
+  }
+
+  
+  a.book {
+    width: 210px;
+  }
+
+  section.about h2 {
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    color: #a65151;
+    opacity: 0.55;
+    padding-top: 53px;
+  }
+
+  section.about img {
+    min-width: 109px;
+    max-width: 40%;
+    min-height: 121px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+    top: 20px;
+  }
+
+  section.about div {
+    margin: 0px 55.9px 0px 54.9px;
+    background-color: #cc786e;
+    padding: 33px 29.2px 42.6px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  section.shop h2 {
+
+    font-size: 38px;
+  }
+
+  section.shop .innersense {
+    display: inline-block;
+    background-image: url(./InnersenseAds2-04.jpg);
+    border-radius: 12px;
+    min-width: 213px;
+    min-height: 143px;
+    background-repeat: no-repeat;
+    background-size: 233px;
+    background-position: 20% 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  section.shop p {
+    font-size: 12px;
+  }
+
+  section.shop a.shopnow {
+ 
+    font-size: 12px;
+ 
+  }
+ 
+  section.bridal {
+    background: url(./frame-orange.png) no-repeat;
+    background-position: bottom right;
+    background-color: #f4cea0;
+    text-align: center;
+  }
+  section .bridal-container {
+    margin: auto;
+  }
+
+ 
+
+  section.contact h2 {
+
+    font-size: 34px;
+    padding-bottom: 33px;
+   
+  }
+
+  section.contact input {
+    background-color: #fef3ef;
+    border: 1px solid #eabcaf;
+    border-radius: 5px;
+    width: 247px;
+    height: 33px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Vollkorn SC', serif;
+    color: #dfb5a5;
+    padding-left: 11px;
+  }
+  section.contact input::placeholder {
+    font-family: 'Vollkorn SC', serif;
+    font-size: 12px;
+    color: #e8cabf;
+  }
+
+  section.contact textarea {
+    background-color: #fef3ef;
+    border: 1px solid #eabcaf;
+    border-radius: 5px;
+    width: 240px;
+    height: 165px;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 12px;
+    color: #dfb5a5;
+    padding-top: 16px;
+    padding-left: 19px;
+    margin-bottom: 20px;
+  }
+  section.contact textarea::placeholder {
+    font-family: 'Vollkorn SC', serif;
+    font-size: 12px;
+    color: #e8cabf;
+  }
+  section.contact input[type=submit]{
+    background-color: #DA9C80;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    width: 185.95px;
+  }
+  section.contact input[type=submit]:hover{
+    background-color: #d89677;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    width: 185.95px;
+  }
+
+  section.contact p {
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 16px;
+    font-size: 14px;
+  }
+
+  section.contact .address {
+    font-weight: 700;
+  }
+
+  section.contact .follow {
+    font-family: 'Ultra', serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;;
+    padding-bottom: 11px;
+  }
+
+  section.contact img {
+    width: 23px;
+    height: 23px;
+    padding-bottom: 55px;
+  }
+ 
+  section.bridal {
+    background: url(./frame-orange.png) no-repeat;
+    background-position: bottom right;
+    background-color: #f4cea0;
+    text-align: center;
+  }
+
+  section .bridal-container {
+    width: 240px;
+  }
+  section.bridal h2 {
+    font-family: 'Ultra', serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #fcf9f9;
+    padding-top: 28px;
+  }
+
+  section.bridal .yellow-square {
+    display: inline-block;
+    background-image: url(./rectangule.png);
+    min-width: 30px;
+    min-height: 27px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -115px;
+    left: -13px;
+    z-index: 3;
+  }
+  section.bridal .photo-1 {
+    display: inline-block;
+    background-image: url(./IMG_1784.jpg);
+    max-width: 100px;
+    max-height: 201px;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: -20px;
+    position: relative;
+    left: -35px;
+    top: 40px;
+    z-index: 1;
+  }
+  section.bridal .photo-2 {
+    display: inline-block;
+    background-image: url(./IMG_1783.jpg);
+    position: relative;
+    max-width: 88px;
+    max-height: 106px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -0px -5px;
+    top: -5px;
+    left: -25px;
+    z-index: 3;
+  }
+  section.bridal .orange {
+    display: inline-block;
+    background-image: url(./orange-circle.png);
+    position: relative;
+    width: 59.84px;
+    height: 58.23px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 170px;
+    bottom: 200px;
+    z-index: 2;
+  }
+  section.bridal p {
+    display: inline-block;
+    background-color: #f2ece6;
+    position: relative;
+    color: #592b02;
+    text-align: justify;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    font-size: 12px;
+    z-index: 2;
+    width: 150px;
+    padding: 18px 8px 12px 8px;
+    top: -10px;
+    left: -40px;
+    z-index: 0;
+    margin-bottom: 154px;
+  }
+  
 }
