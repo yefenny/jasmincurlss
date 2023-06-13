@@ -730,8 +730,17 @@
     background-size: 450px;
     text-align: center;
   }
+
+  section.bridal h2{
+    font-size: 38px;
+  }
+
+  section.bridal:last-child {
+    text-align: right;
+  }
+
   section .bridal-container {
-    margin: auto;
+   padding-left: 70px;
   }
   section.bridal .yellow-square {
     min-width: 50px;
