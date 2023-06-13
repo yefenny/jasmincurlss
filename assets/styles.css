@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Sree+Krushnadevaraya&family=Ultra&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
 
-@media screen and (max-width: 374px ){
+@media screen and (max-width: 374px) {
   section.bridal {
     background: url(./frame-orange.png) no-repeat;
     background-position: bottom right;
@@ -83,7 +83,6 @@
     z-index: 0;
     margin-bottom: 204px;
   }
-  
 }
 @media screen and (min-width: 150px) {
   * {
@@ -377,14 +376,14 @@
     font-size: 15px;
     color: #e8cabf;
   }
-  section.contact input[type=submit]{
-    background-color: #DA9C80;
+  section.contact input[type='submit'] {
+    background-color: #da9c80;
     color: #fff;
     border: none;
     border-radius: 2px;
     width: 185.95px;
   }
-  section.contact input[type=submit]:hover{
+  section.contact input[type='submit']:hover {
     background-color: #d89677;
     color: #fff;
     border: none;
@@ -407,7 +406,7 @@
     font-family: 'Ultra', serif;
     font-weight: 400;
     font-size: 14px;
-    color: #fff;;
+    color: #fff;
     padding-bottom: 11px;
   }
 
@@ -416,27 +415,21 @@
     height: 33px;
     padding-bottom: 55px;
   }
-
 }
 
 /* Very small screen */
 
-@media screen and (max-width: 374px ){
- 
+@media screen and (max-width: 374px) {
   section.home h1 {
-
     font-size: 53px;
     text-align: center;
   }
 
-
   section.home a {
     width: 210px;
     font-size: 12px;
-
   }
 
-  
   a.book {
     width: 210px;
   }
@@ -474,7 +467,6 @@
   }
 
   section.shop h2 {
-
     font-size: 38px;
   }
 
@@ -498,11 +490,9 @@
   }
 
   section.shop a.shopnow {
- 
     font-size: 12px;
- 
   }
- 
+
   section.bridal {
     background: url(./frame-orange.png) no-repeat;
     background-position: bottom right;
@@ -513,13 +503,9 @@
     margin: auto;
   }
 
- 
-
   section.contact h2 {
-
     font-size: 34px;
     padding-bottom: 33px;
-   
   }
 
   section.contact input {
@@ -558,14 +544,14 @@
     font-size: 12px;
     color: #e8cabf;
   }
-  section.contact input[type=submit]{
-    background-color: #DA9C80;
+  section.contact input[type='submit'] {
+    background-color: #da9c80;
     color: #fff;
     border: none;
     border-radius: 2px;
     width: 185.95px;
   }
-  section.contact input[type=submit]:hover{
+  section.contact input[type='submit']:hover {
     background-color: #d89677;
     color: #fff;
     border: none;
@@ -589,7 +575,7 @@
     font-family: 'Ultra', serif;
     font-weight: 400;
     font-size: 12px;
-    color: #fff;;
+    color: #fff;
     padding-bottom: 11px;
   }
 
@@ -598,7 +584,7 @@
     height: 23px;
     padding-bottom: 55px;
   }
- 
+
   section.bridal {
     background: url(./frame-orange.png) no-repeat;
     background-position: bottom right;
@@ -684,17 +670,114 @@
     z-index: 0;
     margin-bottom: 154px;
   }
-  
 }
 
-@media screen and (min-width: 420px ){
+@media screen and (min-width: 420px) {
   section .bridal-container {
     width: 400px;
   }
 }
 
-@media screen and (min-width: 640px ){
+@media screen and (min-width: 640px) {
+  section.bridal {
+    background: url(./orange-frame-bridal.png) top 110px left -30px no-repeat;
+    background-color: #f4cea0;
+    background-size: 60%;
+    text-align: center;
+  }
+
   section .bridal-container {
     width: 400px;
+    text-align: right;
+    padding-top: 20px;
   }
+}
+
+@media screen and (min-width: 700px) {
+  section.home {
+    background: url(./WAVES-FIRST-ORANGE.png) top -60px left -30px no-repeat,
+    url(./WAVES-FIRST-ORANGE.png) bottom -40px left -30px no-repeat;
+    background-size: 1000px 200px;
+    background-color: #f2ece6;
+    text-align: center;
+  }
+  .links-home {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: auto;
+    width: 520px;
+    padding-bottom: 45px;
+  }
+  section.home a {
+    color: #fef6f3;
+    width: 250px;
+    margin-right: 20px;
+  }
+  section.home a:last-child {
+    margin-right: 0;
+  }
+  section.about {
+    background: url(./WAVES-FIRST-ORANGE.png) top -165px left -30px no-repeat;
+    background-size: 1000px 200px;
+    background-color: #f2ece6;
+    text-align: center;
+    padding-bottom: 44.7px;
+  }
+  section.bridal {
+    background: url(./orange-frame-bridal.png) top 0px left -40px no-repeat;
+    background-color: #f4cea0;
+    background-size: 450px;
+    text-align: center;
+  }
+  section .bridal-container {
+    margin: auto;
+  }
+  section.bridal .yellow-square {
+    min-width: 50px;
+    min-height: 47px;
+    background-size: 50px;
+    top: -135px;
+  }
+  section.bridal .photo-1 { 
+    width: 156px;
+    height: 231px;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: -30px;
+    position: relative;
+    left: -45px;
+    top: 65px;
+    z-index: 1;
+  }
+  section.bridal .photo-2 {
+    width: 148px;
+    height: 156px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -0px -5px;
+    top: 16px;
+    left: -29px;
+    z-index: 3;
+  }
+  section.bridal .orange {
+    width: 109.84px;
+    height: 108.23px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 310px;
+    bottom: 195px;
+    z-index: 2;
+  }
+  section.bridal p {
+    font-size: 15px;
+    z-index: 2;
+    width: 270px;
+    padding: 28px 8px 22px 8px;
+    top: 30px;
+    left: 30px;
+    z-index: 0;
+    margin-bottom: 204px;
+  }
+
 }
