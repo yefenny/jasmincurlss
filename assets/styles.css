@@ -165,6 +165,22 @@
     padding-top: 53px;
   }
 
+  section.about .jaz-img {
+    background-image: url(./JAZZIMAGE.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: left -35px top 0px;
+    width: 40%;
+    min-height: 121px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #fff;
+    top: 20px;
+    aspect-ratio: 3 / 2;
+    z-index: 1;
+  }
+
   section.about img {
     min-width: 119px;
     max-width: 40%;
@@ -176,7 +192,7 @@
     top: 20px;
   }
 
-  section.about div {
+  section.about .about-text {
     margin: 0px 55.9px 0px 54.9px;
     background-color: #cc786e;
     padding: 33px 29.2px 42.6px;
@@ -185,6 +201,7 @@
     font-weight: 400;
     font-size: 15px;
     text-align: justify;
+    position: relative;
   }
   section.shop {
     background-color: #d9736a;
@@ -455,7 +472,7 @@
     top: 20px;
   }
 
-  section.about div {
+  section.about .about-text {
     margin: 0px 55.9px 0px 54.9px;
     background-color: #cc786e;
     padding: 33px 29.2px 42.6px;
@@ -696,7 +713,7 @@
 @media screen and (min-width: 700px) {
   section.home {
     background: url(./WAVES-FIRST-ORANGE.png) top -60px left -30px no-repeat,
-    url(./WAVES-FIRST-ORANGE.png) bottom -40px left -30px no-repeat;
+      url(./WAVES-FIRST-ORANGE.png) bottom -40px left -30px no-repeat;
     background-size: 1000px 200px;
     background-color: #f2ece6;
     text-align: center;
@@ -731,7 +748,7 @@
     text-align: center;
   }
 
-  section.bridal h2{
+  section.bridal h2 {
     font-size: 38px;
   }
 
@@ -740,7 +757,7 @@
   }
 
   section .bridal-container {
-   padding-left: 70px;
+    padding-left: 70px;
   }
   section.bridal .yellow-square {
     min-width: 50px;
@@ -748,7 +765,7 @@
     background-size: 50px;
     top: -135px;
   }
-  section.bridal .photo-1 { 
+  section.bridal .photo-1 {
     width: 156px;
     height: 231px;
     background-size: 140%;
@@ -788,5 +805,43 @@
     z-index: 0;
     margin-bottom: 204px;
   }
-
 }
+@media screen and (min-width: 847px) {
+  section.about .about-container {
+    width: 844px;
+    text-align: left;
+  }
+  section.about img {
+    min-width: 194px;
+    max-width: 194px;
+    min-height: 30px;
+    position: relative;
+    margin: 0;
+    left: 30px;
+    top: -42px;
+  }
+
+  section.about .about-text {
+    padding: 29px 85px 69px 105px;
+    width: 350px;
+    left: 100px;
+  }
+}
+@media screen and (min-width: 376px) { 
+  section.about .jaz-img {
+    background-image: url(./JAZZIMAGE.jpeg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: right 40% top 0px;
+    width: 40%;
+    min-height: 121px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #fff;
+    top: 20px;
+    aspect-ratio: 3 / 2;
+    z-index: 1;
+  }
+}
+
