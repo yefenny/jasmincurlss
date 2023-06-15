@@ -832,7 +832,8 @@
     width: 600px;
     position: relative;
     top: 90px;
-    left: 143px;
+    left: 10px;
+    margin: auto;
   }
   section.about .about-container {
     width: 800px;
@@ -904,6 +905,31 @@
     background-size: 100%;
     transform: rotate(30deg);
     opacity: 0.7;
+  }
+
+  section.contact .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 800px;
+    margin: auto;
+  }
+
+  section.contact .contact-container form {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  section.contact .contact-container .follow-me-container {
+    font-size: 18px;
+    margin-bottom: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+  }
+
+  section.contact .contact-container .follow-me-container  p {
+    font-size: 18px;
+    margin-bottom: 20px;
   }
 }
 
