@@ -178,7 +178,7 @@
     border: 3px solid #fff;
     top: 20px;
     aspect-ratio: 3 / 2;
-    z-index: 1;
+    z-index: 2;
   }
 
   section.about img {
@@ -202,6 +202,7 @@
     font-size: 15px;
     text-align: justify;
     position: relative;
+    z-index: 1;
   }
   section.shop {
     background-color: #d9736a;
@@ -806,27 +807,6 @@
     margin-bottom: 204px;
   }
 }
-@media screen and (min-width: 847px) {
-  section.about .about-container {
-    width: 844px;
-    text-align: left;
-  }
-  section.about img {
-    min-width: 194px;
-    max-width: 194px;
-    min-height: 30px;
-    position: relative;
-    margin: 0;
-    left: 30px;
-    top: -42px;
-  }
-
-  section.about .about-text {
-    padding: 29px 85px 69px 105px;
-    width: 350px;
-    left: 100px;
-  }
-}
 @media screen and (min-width: 376px) { 
   section.about .jaz-img {
     background-image: url(./JAZZIMAGE.jpeg);
@@ -844,4 +824,52 @@
     z-index: 1;
   }
 }
+@media screen and (min-width: 847px) {
+  section.about {
+  }
+  section.about h2 {
+    font-size: 46px;
+    position: relative;
+    top: 90px;
+    left: 23px;
+  }
+  section.about .about-container {
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+  }
+  section.about .jaz-img {
+    min-width: 250px;
+    max-width: 250px;
+    background-size: 150%;
+    height: 220px;
+    position: relative;
+    margin: 0;
+    left: 40px;
+    top: -22px;
+    z-index: 2;
+  }
+
+  section.about .about-text {
+    padding: 29px 65px 69px 85px;
+    width: 300px;
+    left: 180px;
+    bottom: 100px;
+    z-index: 1;
+  }
+  section.about .circle-rainbow{
+    position: relative;
+    width: 205px;
+    height: 208px;
+    background-image: url(./circle-rainbow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 610px;
+    left: 580px;
+    z-index: 0;
+    padding-bottom: 0;
+  }
+}
+
 
