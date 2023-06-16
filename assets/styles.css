@@ -94,10 +94,20 @@
   .orange {
     color: #f38e35;
   }
+  header {
+    text-align: center;
+  }
+
+  section.home .topnav {
+    position: sticky;
+    width: 300px;
+    margin:auto;
+  }
+
   section.home {
-    background: url(./WAVES-FIRST-ORANGE.png) top -60px left -30px no-repeat,
-      url(./WAVES-FIRST-ORANGE.png) bottom -40px left -30px no-repeat;
-    background-size: 760px 200px;
+    background: url(./large-rainbow-waves.png) top -60px left -20px no-repeat,
+    url(./large-rainbow-waves.png) bottom -40px left -30px no-repeat;
+  background-size: 4000px 200px;
     background-color: #f2ece6;
   }
 
@@ -148,8 +158,8 @@
   }
 
   section.about {
-    background: url(./WAVES-FIRST-ORANGE.png) top -165px left -30px no-repeat;
-    background-size: 760px 200px;
+    background: url(./large-rainbow-waves.png) top -165px left -30px no-repeat;
+    background-size: 4000px 200px;
     background-color: #f2ece6;
     text-align: center;
     padding-bottom: 44.7px;
@@ -433,6 +443,18 @@
     height: 33px;
     padding-bottom: 55px;
   }
+  footer {
+    background-color: #c1786f;
+    height: 100px;
+  }
+  footer h3 {
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+  }
 }
 
 /* Very small screen */
@@ -691,6 +713,9 @@
 }
 
 @media screen and (min-width: 420px) {
+  section.home .topnav {
+    width: 400px;
+  }
   section .bridal-container {
     width: 400px;
   }
@@ -713,9 +738,9 @@
 
 @media screen and (min-width: 700px) {
   section.home {
-    background: url(./WAVES-FIRST-ORANGE.png) top -60px left -30px no-repeat,
-      url(./WAVES-FIRST-ORANGE.png) bottom -40px left -30px no-repeat;
-    background-size: 1000px 200px;
+    background: url(./large-rainbow-waves.png) top -60px left -30px no-repeat,
+      url(./large-rainbow-waves.png) bottom -40px left -30px no-repeat;
+    background-size: 4000px 200px;
     background-color: #f2ece6;
     text-align: center;
   }
@@ -736,8 +761,8 @@
     margin-right: 0;
   }
   section.about {
-    background: url(./WAVES-FIRST-ORANGE.png) top -165px left -30px no-repeat;
-    background-size: 1000px 200px;
+    background: url(./large-rainbow-waves.png) top -165px left -30px no-repeat;
+    background-size: 4000px 200px;
     background-color: #f2ece6;
     text-align: center;
     padding-bottom: 44.7px;
@@ -821,12 +846,11 @@
     border: 3px solid #fff;
     top: 20px;
     aspect-ratio: 3 / 2;
-    z-index: 1;
+    z-index: 2;
   }
 }
 @media screen and (min-width: 847px) {
-  section.about {
-  }
+ 
   section.about h2 {
     font-size: 46px;
     width: 600px;
@@ -930,6 +954,21 @@
   section.contact .contact-container .follow-me-container  p {
     font-size: 18px;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 963px) {
+  section.home {
+    background: url(./large-rainbow-waves.png) top -60px left -20px no-repeat,
+      url(./large-rainbow-waves.png) bottom -40px left -30px no-repeat;
+    background-size: 4000px 200px;
+    background-color: #f2ece6;
+  }
+  section.home h1 {
+    font-size: 110px;
+  }
+  section.about {
+    background-size: 4000px 200px;
   }
 }
 
