@@ -712,7 +712,7 @@
   }
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 410px) {
   section.home .topnav {
     width: 400px;
   }
