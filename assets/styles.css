@@ -972,6 +972,7 @@
       url(./large-rainbow-waves.png) bottom -40px left -30px no-repeat;
     background-size: 4000px 200px;
     background-color: #f2ece6;
+  
   }
   section.home h1 {
     font-size: 110px;
@@ -992,3 +993,15 @@
     background-size: 4000px 200px;
   }
 }
+/* @keyframes slidein {
+  from {
+    background: url(./large-rainbow-waves.png) top -60px left -10px no-repeat,
+    url(./large-rainbow-waves.png) bottom -40px left -40px no-repeat;
+  }
+
+  to {
+    background: url(./large-rainbow-waves.png) top -60px left -20px no-repeat,
+    url(./large-rainbow-waves.png) bottom -40px left -30px no-repeat;
+  }
+} */
+
