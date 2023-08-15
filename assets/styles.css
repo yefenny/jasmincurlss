@@ -132,7 +132,7 @@
   }
   section.home a {
     color: #fef6f3;
-    width: 250px;
+    min-width: 250px;
     font-size: 14px;
     font-family: 'Vollkorn SC', serif;
     font-weight: 400;
@@ -739,7 +739,6 @@
   }
 }
 
-
 @media screen and (min-width: 374px) {
   section.about .jaz-img {
     background-image: url(./JAZZIMAGE.jpeg);
@@ -759,6 +758,10 @@
 
   section.home .topnav {
     width: 350px;
+  }
+
+  section.home a {
+    width: 300px;
   }
 }
 @media screen and (min-width: 847px) {
@@ -874,16 +877,14 @@
   }
   .links-home {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     margin: auto;
     width: 520px;
     padding-bottom: 45px;
   }
   section.home a {
     color: #fef6f3;
-    width: 250px;
-    margin-right: 20px;
+    width: 350px;
   }
 
   section.home .topnav {
@@ -975,6 +976,18 @@
   section.home h1 {
     font-size: 110px;
   }
+  .links-home {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 700px;
+    margin: auto;
+    padding-bottom: 45px;
+  }
+  .links-home a {
+    margin-right:50px;
+  }
+
   section.about {
     background-size: 4000px 200px;
   }
